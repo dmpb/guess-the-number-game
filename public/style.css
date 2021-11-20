@@ -4,10 +4,10 @@
 }
 
 .game {
-    max-width: 600px;
+    max-width: 500px;
 }
 
-.footer{
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -21,4 +21,16 @@
 
 .txt-roboto {
     font-family: "Roboto", sans-serif;
+}
+
+.txt-fredoka_one {
+    font-family: "Fredoka One", cursive;
+}
+
+.txt-work_sans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.txt-dark{
+    color: #12263f !important;
 }

@@ -15,14 +15,14 @@ function submitGuess() {
     let guessNumber = Number(number.value)
 
     if (intents === 1) {
-        guessesText.textContent = "Previous guesses:"
+        guessesText.textContent = "Conjeturas anteriores:"
     }
 
     guessesText.textContent += " " + guessNumber
 
     if (guessNumber === hiddenNumber) {
-        lastResultText.textContent = "Success!"
-        lastResultText.style.backgroundColor = "green"
+        lastResultText.textContent = "Exito!"
+        lastResultText.style.backgroundColor = "#20c997"
         lowOrHiText.textContent = ""
         setGameOver()
     } else if (intents === 10) {
@@ -32,15 +32,13 @@ function submitGuess() {
         setGameOver()
     } else {
         if (guessNumber > hiddenNumber) {
-            lastResultText.textContent = "Wrong!"
+            lastResultText.textContent = "Incorrecto!"
             lastResultText.style.backgroundColor = "red"
-            lowOrHiText.textContent = "Last guess was too high!"
-            console.log("hight")
+            lowOrHiText.textContent = "La última suposición fue demasiado alta!"
         } else if (guessNumber < hiddenNumber) {
-            console.log("low")
-            lastResultText.textContent = "Wrong!"
+            lastResultText.textContent = "Incorrecto!"
             lastResultText.style.backgroundColor = "red"
-            lowOrHiText.textContent = "Last guess was too low!"
+            lowOrHiText.textContent = "La última suposición fue demasiado baja!"
         }
     }
 
