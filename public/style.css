@@ -1,0 +1,24 @@
+.app {
+    background-color: #f5faff;
+    position: relative;
+}
+
+.game {
+    max-width: 600px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 4px;
+    text-align: center;
+}
+
+.txt-open_sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.txt-roboto {
+    font-family: "Roboto", sans-serif;
+}
