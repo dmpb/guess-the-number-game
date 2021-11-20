@@ -1,0 +1,13 @@
+{
+    "name": "dmep1/guess-the-number-game",
+    "description": "Un juego de adivina el numero",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Ponce",
+            "email": "51546545+dmpb@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
