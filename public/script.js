@@ -25,7 +25,7 @@ function submitGuess() {
         lastResultText.style.backgroundColor = "#20c997"
         lowOrHiText.textContent = ""
         setGameOver()
-    } else if (intents === 10) {
+    } else if (intents === 100) {
         lastResultText.textContent = "Game Over!"
         lastResultText.style.backgroundColor = "red"
         lowOrHiText.textContent = ""
