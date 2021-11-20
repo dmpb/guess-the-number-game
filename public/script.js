@@ -25,7 +25,7 @@ function submitGuess() {
         lastResultText.style.backgroundColor = "#20c997"
         lowOrHiText.textContent = ""
         setGameOver()
-    } else if (intents === 100) {
+    } else if (intents === 10) {
         lastResultText.textContent = "Game Over!"
         lastResultText.style.backgroundColor = "red"
         lowOrHiText.textContent = ""
@@ -62,7 +62,7 @@ function startNewGame() {
 }
 
 function newHiddenNumber() {
-    return Math.floor(Math.random() * 10 + 1)
+    return Math.floor(Math.random() * 100 + 1)
 }
 
 function setGameOver() {
